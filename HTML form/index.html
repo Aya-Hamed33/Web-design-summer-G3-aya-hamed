@@ -13,53 +13,64 @@
         <fieldset>
 
             <legend style="font-size: 24px; font-weight:bold;">Regesteration Form</legend>
-
-            <label>First Name</label>
-            <input type="text" name="firstName" placeholder="Enter first name"> <br>
-
-            <label>Email</label>
-            <input type="email" id="userEmail" name="Email" required autocomplete="on" placeholder="Email"
-                pattern="^[a-zA-z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-z]{2,}$"><br>
-
-            <label>Phone</label>
-            <input type="tel" name="phone" id="egypt-phone" pattern="^(010|011|015|012)[0-9]{8,}$" maxlength="11"
-                placeholder="phone"><br>
-
-            <input type="file" accept"image/png" required>
-            <br>
-
-            <label for="Course-choice">Choise course</label>
-            <input type="text" id="Course-choice" name="course" list="Courses-list" placeholder="Search here">
-            <datalist id="Courses-list">
-                <option value="HTML & CSS"></option>
-                <option value="javaScript"></option>
-                <option value="Python"></option>
-            </datalist><br>
-
-            <label>Gender</label>
-            <input type="radio" name="gender" value="male">
-            <label>male</label>
-            <input type="radio" name="gender" value="Female">
-            <label>female</label> <br>
-
-            <label>Date</label>
-            <input type="date"><br>
-
-            <label>Range</label>
-            <input type="range" name="range" min="100" step="5" value="50" max="200"><br>
-
-            <label>Track</label>
-            <input type="checkbox" name="track" value="Web">
-            <label>Web design</label>
-            <input type="Checkbox" name="track" value="net">
-            <label>Network</label>
-            <input type="Checkbox" name="track" value="bk">
-            <label>BackEnd</label><br>
-            <button type="button">add user</button>
-            <button type="reset">Clear</button><br>
-        </fieldset>
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName" placeholder="Enter first name">
+            </div><br>
+            <div>
+                <label>Email</label>
+                <input type="email" id="userEmail" name="Email" required autocomplete="on" placeholder="Email"
+                    pattern="^[a-zA-z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-z]{2,}$">
+            </div><br>
+            <div>
+                <label>Phone</label>
+                <input type="tel" name="phone" id="egypt-phone" pattern="^(010|011|015|012)[0-9]{8,}$" maxlength="11"
+                    placeholder="phone">
+            </div><br>
+            <div>
+                <input type="file" accept"image/png" required>
+            </div><br>
+            <div>
+                <label for="Course-choice">Choise course</label>
+                <input type="text" id="Course-choice" name="course" list="Courses-list" placeholder="Search here">
+                <datalist id="Courses-list">
+                    <option value="HTML & CSS"></option>
+                    <option value="javaScript"></option>
+                    <option value="Python"></option>
+                </datalist>
+            </div><br>
+            <div>
+                <label>Gender</label>
+                <input type="radio" name="gender" value="male">
+                <label>male</label>
+                <input type="radio" name="gender" value="Female">
+                <label>female</label>
+            </div> <br>
+            <div>
+                <label>Date</label>
+                <input type="date">
+            </div><br>
+            <div>
+                <label>Range</label>
+                <input type="range" name="range" min="100" step="5" value="50" max="200">
+            </div><br>
+            <div>
+                <label>Track</label>
+                <input type="checkbox" name="track" value="Web">
+                <label>Web design</label>
+                <input type="Checkbox" name="track" value="net">
+                <label>Network</label>
+                <input type="Checkbox" name="track" value="bk">
+                <label>BackEnd</label>
+            </div><br>
+            <div>
+                <button type="button">add user</button>
+                <button type="reset">Clear</button>
+            </div><br>
+        </fieldset><br>
 
         <button type="submit">Regester</button>
+
     </form>
 
 </body>
