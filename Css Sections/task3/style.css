@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+
+}
+
+.container {
+    width: 60%;
+    text-align: center;
+    margin: 80px auto;
+    background-color: rgb(243, 240, 240);
+
+}
+
+.container h1 {
+    font-size: 45px;
+    font-weight: normal;
+    color: black;
+    padding-top: 100px;
+
+}
+
+.line {
+    background-color: orange;
+    width: 70px;
+    height: 3px;
+    margin: 20px auto;
+}
+
+.container p {
+    color: gray;
+    margin-bottom: 100px;
+}
+
+.cards {
+    padding-bottom: 80px;
+}
+
+.card {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cards h3 {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.left {
+    width: 100%;
+    background-color: rgb(65, 64, 64);
+    border: none;
+    vertical-align: top;
+}
+
+.left-price {
+    background-color: rgb(65, 64, 64);
+    color: white;
+    height: 115px;
+    text-align: center;
+    border-bottom: 4px solid orange;
+}
+
+
+.cards h6 {
+    color: rgb(195, 192, 192);
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.left-list {
+    background-color: white;
+}
+
+.professional {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -33px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.center {
+    background-color: rgb(65, 64, 64);
+}
+.center-price {
+    font-weight: 45px;
+    height: 110px;
+    background-color: rgb(65, 64, 64);
+}
+
+.cards h1 {
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.center-A {
+    color: white;
+    background-color: orange;
+    padding: 10px;
+}
+
+.right {
+    background-color: rgb(65, 64, 64);
+
+}
+
+.right-price {
+    height: 115px;
+    background-color: rgb(65, 64, 64);
+    border-bottom: 4px solid orange;
+}
+
+.cards .list {
+    background-color: white;
+}
+
+.cards ul {
+    list-style: none;
+}
+
+.cards li {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    color: gray;
+}
