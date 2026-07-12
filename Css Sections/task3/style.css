@@ -27,7 +27,7 @@ body {
 }
 
 .line {
-    background-color: orange;
+    background-color: red;
     width: 70px;
     height: 3px;
     margin: 20px auto;
@@ -67,7 +67,7 @@ body {
     color: white;
     height: 115px;
     text-align: center;
-    border-bottom: 4px solid orange;
+    border-bottom: 4px solid red;
 }
 
 
@@ -107,7 +107,7 @@ body {
 
 .center-A {
     color: white;
-    background-color: orange;
+    background-color: red;
     padding: 10px;
 }
 
@@ -119,7 +119,7 @@ body {
 .right-price {
     height: 115px;
     background-color: rgb(65, 64, 64);
-    border-bottom: 4px solid orange;
+    border-bottom: 4px solid red;
 }
 
 .cards .list {
