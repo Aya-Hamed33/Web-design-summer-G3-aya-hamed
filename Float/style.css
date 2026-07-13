@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 50px auto;
+
+}
+
+header {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: orange;
+    font-weight: lighter
+}
+
+a {
+    color: white;
+    margin-left: 35px;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.20),rgba(0, 0, 0, 0.20)),
+        url(BackGround.jpg);
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    height: calc(75vh - 70px);
+
+}
+
+.content {
+    width: 40%;
+    color: white;
+    line-height: 45px;
+    float: left;
+    
+    display: block;
+    margin-top: 110px;
+    margin-left: 150px;
+}
+
+.content h1 {
+    font-size: 70px;
+    font-weight: bold;
+    display: inline-block;
+
+}
+
+.content span {
+    font-weight: lighter;
+    color: orange;
+    font-size: 70px;
+}
+
+.content h2 {
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 20px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+hr {
+    width: 55px;
+    height: 2px;
+    background-color: white;
+    border: none;
+    margin: 30px 0;
+}
+
+.content p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: auto;
+    line-height: 25px;
+    display: inline-block;
+    color: lightgray;
+}
+
+.content button {
+    width: 100px;
+    border: 2px solid ;
+    color: white;
+    background: transparent;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.form {
+    width: 25%;
+    background-color: white;
+    float: right;
+    border-radius: 5px;
+    overflow:hidden;
+    margin:120px;
+}
+
+.form h3 {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color:rgba(211, 211, 211, 0.616)
+}
+
+.form span {
+    color: orange;
+}
+
+.form input {
+    width: 80%;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    border-color: rgb(239, 238, 238);
+    background-color: rgba(232, 231, 231, 0.13);
+    padding: 10px;
+    margin-top: 30px;
+    margin: 30px ;
+
+}
+
+.form button {
+    width: 100%;
+    background-color: orange;
+    padding: 20px;
+    color:white;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+    font-weight:bold
+
+
+}
