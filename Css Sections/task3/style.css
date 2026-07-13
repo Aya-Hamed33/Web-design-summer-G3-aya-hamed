@@ -47,13 +47,19 @@ body {
     display: inline-block;
     vertical-align: top;
 }
-span{
+span.d{
  font-size:70px;
 }
 span.b{
-    font-size: 70px;
+    font-size: 60px;
 }
 span.c{
+    font-size: 70px;
+}
+span.g{
+    font-size: 60px;
+}
+span.f{
     font-size: 70px;
 }
 .cards h3 {
@@ -104,9 +110,7 @@ span.c{
     height: 110px;
     background-color: #2c405f;
 }
-.center-price h6{
-   margin-top:-10px;
-}
+
 .cards h1 {
     color: white;
     text-align: center;
