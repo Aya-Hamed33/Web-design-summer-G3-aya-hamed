@@ -18,11 +18,11 @@ body {
 
 }
 
-.container header {
+h1.header {
     font-size: 45px;
     font-weight: normal;
     color: #1f2937;
-    padding:80px;
+    padding-top:80px;
    
 
 }
@@ -47,9 +47,6 @@ body {
     width: 25%;
     display: inline-block;
     vertical-align: top;
-}
-.cards h6{
-
 }
 span.d{
  font-size:60px;
