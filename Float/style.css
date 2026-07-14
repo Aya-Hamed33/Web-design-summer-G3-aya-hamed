@@ -94,7 +94,7 @@ hr {
     overflow: auto;
     line-height: 25px;
     display: inline-block;
-    color: lightgray;
+    color: rgba(211, 211, 211, 0.88);
 }
 
 .content button {
