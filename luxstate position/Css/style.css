@@ -9,7 +9,10 @@ body{
     background-color: #ffffff;
     color: #1a2e35;
 }
-
+header{
+    width:80%;
+    margin:auto;
+}
 .heading{
     background-color: white;
     width:80%;
@@ -25,17 +28,19 @@ body{
     font-weight: 600;
     font-size: 22px;
     color: #1a2e35;
+    margin-left:74px;
 }
 nav{
-    width:50%;
-    margin-left: auto;
+    width:37%;
+    margin-left: 100px;
 }
 nav ul{
     list-style: none;
     margin:0;
     display:flex;
+    flex-wrap:wrap;
     align-items:center;
-    gap:20px;
+    justify-content:space-evenly;
     font-size: 30px;
 }
 
@@ -49,7 +54,7 @@ nav a{
     margin-left: auto;
     display:flex;
     align-items:center;
-    gap:12px;
+    gap:25px;
 }
 .start a{
     color: #6b6b6b;
@@ -70,6 +75,7 @@ nav a{
     margin:40px auto;
     position: relative;
     overflow: visible;
+    
 }
 .image{
     width:80%;
@@ -101,7 +107,7 @@ nav a{
     line-height: 1.05;
     color:#1a2e35;
     margin-bottom: 30px;
-    font-weight:700;
+    font-weight:700
 }
 
 .search-box{
@@ -125,11 +131,11 @@ nav a{
     padding:16px 30px;
     border:none;
     background-color: #ffc700;
-    font-weight:700;
+    font-weight:600;
     cursor:pointer;
     color:#1a2e35;
 }
-i{
+ .search-box i{
     color:lightgray;
     font-size:18px;
     padding-top:20px;
@@ -176,4 +182,370 @@ i{
 }
 .info-item i{
 padding:10px;
+color:white;
+width: 40px;
 }
+
+.statistics{
+  width:80%;
+  justify-content:space-between;
+  padding-top:100px;
+  margin:0 auto;
+
+}
+
+.statistics-container{
+   width:100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    width: 50%;
+   
+}
+
+.left h2{
+    color: #23313f;
+    margin-bottom: 35px;
+    font-size: 60px;
+    font-weight:normal
+}
+
+.left p{
+    color: #777;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.right{
+    width: 38%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.box{
+    width: 37%;
+    height: 306px;
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box h3{
+    color: #f4b400;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.box p{
+    color: #23313f;
+    font-weight: bold;
+}
+.apartments{
+    margin:auto;
+    background:#f6f6f6;
+    padding:100px 0;
+    margin-top: 110px;
+}
+
+.container{
+    width:77%;
+    margin:auto;
+}
+
+.apartments h2{
+    font-size:45px;
+    color:#23313f;
+    margin-bottom:50px;
+    margin-top:126px;
+}
+
+.cards{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.card{
+    width:31%;
+    background:white;
+}
+
+.card img{
+    height:508px;
+    width:100%;
+    display:block;
+}
+
+.card-info{
+    padding:20px;
+}
+
+.card-info h4{
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+.details{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.price{
+    color:#f4b400;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.icons span{
+    color:#777;
+    font-size:14px;
+    margin-left:10px;
+}
+
+.buttom{
+    display:flex;
+    margin-top:60px;
+    position: relative;
+
+}
+
+.buttom input{
+    width:40%;
+    padding:32px;
+    border:none;
+    outline:none;
+    display:flex;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.buttom button{
+    padding:18px 35px;
+    border:none;
+    cursor:pointer;
+}
+.buttom .search{
+    padding: 32px;
+    border:none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor:pointer;
+    display:flex;
+    background-color: #ffc700;
+}
+.buttom .view-btn{
+    width:22%;
+    padding:32px 51px;
+    border-radius:8px;
+    margin-left:43px;
+    background:white;
+    font-weight:bold;
+}
+.buttom i{
+    color:lightgray;
+    font-size:18px;
+
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.works{
+   padding: 100px 0;
+    width: 80%;
+    margin: auto;
+}
+
+
+.works .works-container{
+    width:80%;
+    margin:auto;
+}
+
+.works h2{
+    font-size: 57px;
+    color: #23313f;
+    margin-bottom: 20px;
+}
+
+.title{
+    width: 44%;
+    color: #777;
+    line-height: 45px;
+    margin-bottom: 84px;
+    font-size: 18px;
+}
+
+.work-cards{
+    display:flex;
+    justify-content:space-between;
+}
+
+.work-card{
+    width: 31%;
+    height: 444px;
+    background: #fff;
+    padding: 80px 35px 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .08);
+    position: relative;
+    overflow: hidden;
+}
+h1{
+    position: absolute;
+    top: -88px;
+    left: -36px;
+    font-size: 171px;
+    font-weight: bold;
+    color: #23313f;
+}
+.work-card h3{
+    font-size: 27px;
+    font-weight: lighter;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    color: #23313f;
+}
+
+.work-card p{
+    color: #777;
+    line-height: 40px;
+    margin-bottom: 30px;
+    margin-left: 38px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.work-card a{
+    color: #23313f;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-left: 34px;
+}
+.active{
+    background:#f4b400;
+}
+.services{
+
+    width: 80%;
+    margin: auto;
+    padding: 52px 0;
+}
+
+.services .container{
+    width:80%;
+    margin:auto;
+}
+
+.services h2{
+    font-size:45px;
+    color:#23313f;
+    margin-bottom:20px;
+}
+
+.services-text{
+    width:40%;
+    color:#777;
+    line-height:28px;
+    margin-bottom:60px;
+}
+
+.services-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-image{
+    width:48%;
+}
+
+.services-image img{
+    width:100%;
+    display:block;
+}
+
+.services-info{
+    width:45%;
+}
+
+.service{
+    service {
+    margin-bottom: 122px;
+}
+}
+
+.service h3{
+   font-size: 34px;
+    color: #23313f;
+    margin-bottom: 20px;
+}
+
+.service p{
+    color:#777;
+    line-height:28px;
+}
+
+.services .services-container{
+   width: 80%;
+    margin: auto;
+}
+
+.services h2{
+    font-size:45px;
+    color:#23313f;
+    margin-bottom:20px;
+}
+
+.services-text{
+    width:40%;
+    color:#777;
+    line-height:28px;
+    margin-bottom:60px;
+}
+
+.services-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.services-image{
+    width:48%;
+}
+
+.services-image img{
+    width: 100%;
+    display: block;
+    height: 643px;
+}
+
+
+.services-info{
+    width:45%;
+}
+
+.service{
+    margin-bottom:40px;
+}
+
+.service h3{
+    font-size:24px;
+    color:#23313f;
+    margin-bottom:20px;
+}
+
+.service p{
+    color:#777;
+    line-height:28px;
+}
+
