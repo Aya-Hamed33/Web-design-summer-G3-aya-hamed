@@ -548,4 +548,70 @@ h1{
     color:#777;
     line-height:28px;
 }
+.agents{
+    background:#f6f6f6;
+    padding:100px 0;
+}
 
+.agents .agents-container{
+    width:80%;
+    margin:auto;
+}
+
+.agents h2{
+   font-size: 58px;
+    color: #23313f;
+    margin-bottom: 20px;
+}
+
+.agents-text{
+   width: 37%;
+    font-size: 21px;
+    color: #777;
+    line-height: 39px;
+    margin-bottom: 100px;
+}
+
+.agent-cards{
+    display:flex;
+    justify-content:space-between;
+}
+
+.agent-card{
+    width:31%;
+    background:#fff;
+}
+
+.agent-card img{
+    width: 100%;
+    display: block;
+    height: 654px;
+    object-fit: cover;
+}
+
+.agent-info{
+    padding:20px;
+}
+
+.agent-info h3{
+    color:#23313f;
+    margin-bottom:20px;
+}
+
+.agent-details{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.job{
+    font-size: 20px;
+    color: #f4b400;
+    font-weight: bold;
+}
+
+.social i{
+    margin-left:15px;
+    color:#23313f;
+    cursor:pointer;
+}
