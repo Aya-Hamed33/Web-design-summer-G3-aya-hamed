@@ -32,10 +32,11 @@ body{
     padding:0 15px;
     font-size:13px;
     font-weight:bold;
-    color:#777;
+    color:#777
 }
 
 .info span{
+    color:#14c6cf;
     margin-right:15px;
 }
 
