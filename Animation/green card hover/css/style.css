@@ -1,0 +1,133 @@
+:root {
+    --primary-color: #2DA884;
+    --magenta-color: #a82d6f;
+    --bg-color: #ffffff;
+    --border-color: #e5e9eb;
+    --text-title: #2b3a4a;
+    --text-desc: #7a8694;
+    --icon-bg-default: teal;
+    --transition: all 0.3s ease-in-out;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fc;
+    margin: 0;
+    gap: 40px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    width: 260px;
+    background-color:rgba(0, 128, 128, 0.062);
+    border: 2px solid var(--border-color);
+    border-radius: 6px;
+    padding: 30px 20px 20px 20px;
+    cursor: pointer;
+    transition: var(--transition);
+
+    overflow: hidden;
+
+}
+
+.card h3 {
+    color: var(--text-title);
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    transition: var(--transition);
+    position: relative;
+     z-index: 2;
+}
+
+.card p {
+    color: var(--text-desc);
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    transition: var(--transition);
+    position: relative;
+    z-index: 2;
+}
+
+.card .arrow-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    background-color: var(--icon-bg-default);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 19px;
+    font-size: 12px;
+    transition: var(--transition);
+     z-index:1;
+}
+
+.box-icon {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.card-1:hover .arrow-icon {
+    background-color:teal;
+    transition: var(--transition);
+    transform: scale(100);
+    transition: 0.6s ease;
+   
+   
+}
+.card-1:hover h3,
+.card-1:hover p {
+    color: #ffffff;
+   
+}
+.arrow-icon i{
+    padding-left: 9px;
+}
+
+.card-2:hover {
+
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+.card-2:hover .arrow-icon {
+    background-color: var(--primary-color);
+}
+
+.card-3:hover {
+    transform: translateY(-8px);
+    border-color: var(--primary-color);
+}
+.card-3:hover .arrow-icon {
+    background-color: var(--primary-color);
+}
+.card-4{
+    background-color: white;
+}
+.card-4 .arrow-icon {
+    opacity: 0;
+   transform: translateX(47px); 
+    background-color: var(--magenta-color);
+}
+.card-4:hover {
+    border-color: var(--magenta-color);
+    transform: translate(0px);
+}
+.card-4:hover .arrow-icon {
+    opacity: 1; 
+    transform: translateX(0); 
+    transition: 0.6s ease;
+}
